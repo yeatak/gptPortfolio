@@ -1,0 +1,15 @@
+/* Ana kapsayıcıyı flex container olarak ayarla */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Sayfa boyutunun tamamını kullan */
+  }
+  
+  .content {
+    flex-grow: 1; /* Main içeriğin geri kalan kısmı kaplamasını sağlar */
+  }
+  
+  footer {
+    margin-top: auto; /* Footer'ı sayfanın en altına itme */
+  }
+  

@@ -1,0 +1,9 @@
+.linkStyle {
+    color: #FF6347;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .linkStyle:hover {
+    color: #FF4500;
+  }
